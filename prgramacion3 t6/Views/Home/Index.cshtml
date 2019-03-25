@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Tarea 6</h1>
+    <p class="lead">Objetivo de la tarea, utilizar Html Helpers y Data Annotations (como es obvio el Data Annotations se uso en el modelo con los  [key], [required] , [range], etc y el html helper en las view con los [arroba]Html.</p>
+    @Html.ActionLink("Crear Formulario", "Formu", "Home", new { @class = "btn btn-warning" })
+
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Formulario</h2>
+        <p>
+            la pestaña Formulario lo redirige al formulario.
+        </p>
+        
+    </div>
+    <div class="col-md-4">
+        <h2>Ver</h2>
+        <p>La pestaña ver lo redirige a la pestaña del formulario ya creado.</p>
+    </div>
+    <div class="col-md-4">
+        <h2>Inicio y T6</h2>
+        <p>Tanto Inicio como t6 lo redirige a la pestana principal (t6 es el logo el pocas palabras de la pagina)</p>
+    </div>
+</div>
